@@ -30,7 +30,7 @@ describe("QueryProcessor", () => {
         const query = "andrew";
         const response: string = QueryProcessor(query);
         expect(response).toBe((
-            "My Andrew id is: hanyangz"
+            "hanyangz"
           ));
     });
 });
